@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/X-papillon/Ultimate-Calculator-Pro-v5.0/refs/heads/main/Ultimate-Calculator-Pro-v5.0/calculator_512px.png" width="50"/> Ultimate Calculator Pro v5.0
 
-###A powerful multi-tool Chrome Extension built with a clean Neon Dark UI.  
+### A powerful multi-tool Chrome Extension built with a clean Neon Dark UI.  
 Designed for speed, simplicity, and modern Chrome Manifest V3 security.
 
 ![Version](https://img.shields.io/badge/version-4.0-blue)
