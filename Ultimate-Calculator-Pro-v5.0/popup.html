@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ultimate Calculator Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="badge-support">
+  <a href="https://ko-fi.com/ashraf07" target="_blank">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg"
+         style="border:0;height:20px;width:auto;">
+  </a>
+</div>
+
+<h2 id="titl">
+  Ultimate-Calculator-Pro
+  <small id="vr"> v5.0</small>
+</h2>
+
+<h4>Multi Utility Neon Calculator</h4>
+<hr>
+
+<!-- Tabs -->
+<div class="row">
+  <button class="tabBtn" data-tab="scientific">Scientific</button>
+  <button class="tabBtn" data-tab="age">Age</button>
+  <button class="tabBtn" data-tab="length">Length</button>
+  <button class="tabBtn" data-tab="weight">Weight</button>
+  <button class="tabBtn" data-tab="speed">Speed</button>
+  <button class="tabBtn" data-tab="battery">Battery</button>
+  <button class="tabBtn" data-tab="wave">Wave</button>
+</div>
+<hr>
+<!-- ================= SCIENTIFIC ================= -->
+<div id="scientific" class="tabContent">
+
+<input type="text" id="searchBox" placeholder="Enter math expression">
+
+<div class="row">
+  <button data-val="7">7</button>
+  <button data-val="8">8</button>
+  <button data-val="9">9</button>
+  <button data-val="/">÷</button>
+  <button data-val="sqrt(">√</button>
+</div>
+
+<div class="row">
+  <button data-val="4">4</button>
+  <button data-val="5">5</button>
+  <button data-val="6">6</button>
+  <button data-val="*">×</button>
+  <button data-val="^">xʸ</button>
+</div>
+
+<div class="row">
+  <button data-val="1">1</button>
+  <button data-val="2">2</button>
+  <button data-val="3">3</button>
+  <button data-val="-">-</button>
+  <button data-val="log10(">log</button>
+</div>
+
+<div class="row">
+  <button data-val="0">0</button>
+  <button data-val=".">.</button>
+  <button id="equalBtn">=</button>
+  <button data-val="+">+</button>
+  <button data-val="sin(">sin</button>
+</div>
+
+<div class="row">
+  <button data-val="cos(">cos</button>
+  <button data-val="tan(">tan</button>
+  <button data-val="pi">π</button>
+  <button data-val="e">e</button>
+  <button id="clearBtn">C</button>
+ 
+</div>
+
+<hr>
+<div id="sciResult"></div>
+</div>
+
+<!-- ================= AGE ================= -->
+<div id="age" class="tabContent" style="display:none">
+  <h3>Age Calculator</h3>
+  <input type="date" id="birthDate">
+  <button id="calcAge">Calculate</button>
+  <div id="ageResult"></div>
+</div>
+
+<!-- ================= LENGTH ================= -->
+<div id="length" class="tabContent" style="display:none">
+  <h3>Length Converter</h3>
+  <input type="number" id="lengthInput" placeholder="Value">
+  <select id="lengthFrom">
+    <option value="m">Meters</option>
+    <option value="km">Kilometers</option>
+    <option value="cm">Centimeters</option>
+  </select>
+  <select id="lengthTo">
+    <option value="m">Meters</option>
+    <option value="km">Kilometers</option>
+    <option value="cm">Centimeters</option>
+  </select>
+  <button id="convertLength">Convert</button>
+  <div id="lengthResult"></div>
+</div>
+
+<!-- ================= WEIGHT ================= -->
+<div id="weight" class="tabContent" style="display:none">
+  <h3>Weight Converter</h3>
+  <input type="number" id="weightInput" placeholder="Value">
+  <select id="weightFrom">
+    <option value="kg">Kilograms</option>
+    <option value="g">Grams</option>
+    <option value="lb">Pounds</option>
+  </select>
+  <select id="weightTo">
+    <option value="kg">Kilograms</option>
+    <option value="g">Grams</option>
+    <option value="lb">Pounds</option>
+  </select>
+  <button id="convertWeight">Convert</button>
+  <div id="weightResult"></div>
+</div>
+
+<!-- ================= SPEED ================= -->
+<div id="speed" class="tabContent" style="display:none">
+  <h3>Speed Calculator</h3>
+  <input type="number" id="distance" placeholder="Distance (km)">
+  <input type="number" id="time" placeholder="Time (hours)">
+  <button id="calcSpeed">Calculate</button>
+  <div id="speedResult"></div>
+</div>
+
+<!-- ================= BATTERY ================= -->
+<div id="battery" class="tabContent" style="display:none">
+  <h3>Battery Life</h3>
+  <input type="number" id="batteryWh" placeholder="Capacity (Wh)">
+  <input type="number" id="powerW" placeholder="Power (W)">
+  <button id="calcBattery">Calculate</button>
+  <div id="batteryResult"></div>
+</div>
+
+<!-- ================= WAVE ================= -->
+<div id="wave" class="tabContent" style="display:none">
+  <h3>Wave Calculator</h3>
+  <input type="number" id="frequency" placeholder="Frequency (Hz)">
+  <input type="number" id="wavelength" placeholder="Wavelength (m)">
+  <button id="calcWave">Calculate</button>
+  <div id="waveResult"></div>
+</div>
+
+<script src="math.min.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
