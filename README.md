@@ -170,7 +170,6 @@ If you find this project useful:
   <br/>
   <img src="https://raw.githubusercontent.com/X-papillon/Ultimate-Calculator-Pro-v5.0/refs/heads/main/scrn2.jpg" width="400"/>
   <br/>
- <img src="https://github.com/X-papillon/XIcon-Converter-Pro/blob/main/XIcon-Converter/scrn3.png?raw=true" width="400"/>
 </p>
 
 ---
