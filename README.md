@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/X-papillon/Ultimate-Calculator-Pro-v5.0/refs/heads/main/Ultimate-Calculator-Pro-v5.0/calculator_512px.png" width="50"/> Ultimate Calculator Pro v5.0
+# <img src="https://images2.imgbox.com/27/56/bS4aa9xV_o.png" width="50"/> Ultimate Calculator Pro v5.0
 
 ### A powerful multi-tool Chrome Extension built with a clean Neon Dark UI.  
 Designed for speed, simplicity, and modern Chrome Manifest V3 security.
@@ -166,9 +166,9 @@ If you find this project useful:
 ## 📸 Screenshots
 
 <p>
-  <img src="https://raw.githubusercontent.com/X-papillon/Ultimate-Calculator-Pro-v5.0/refs/heads/main/scrn1.jpg" width="400"/>
+  <img src="https://images2.imgbox.com/de/98/H29Mvr9U_o.jpg" width="400"/>
   <br/>
-  <img src="https://raw.githubusercontent.com/X-papillon/Ultimate-Calculator-Pro-v5.0/refs/heads/main/scrn2.jpg" width="400"/>
+  <img src="https://images2.imgbox.com/1c/09/lcQEGdRg_o.jpg" width="400"/>
   <br/>
 </p>
 
